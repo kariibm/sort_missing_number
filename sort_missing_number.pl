@@ -1,7 +1,7 @@
 #!/usr/bin/perl
-# Copyright (c) Askari Azikin (askari.azikin@kawananu.com)
+# Copyright (c) 2019 Askari Azikin (askari.azikin@kawananu.com)
 #
-# Usage: perl sort_missing_number.pl input_file.xlsx output.txt  
+# Usage: $ perl sort_missing_number.pl input_file.xlsx output.txt  
 #
 # Revision:
 # 22/11/2019 Askari Azikin First Draft
@@ -100,8 +100,8 @@ print <<EOF;
 Options:
          input_file.xlsx : the excel sheet file to be parsed, use "" if there is space on the filename, or just using tab 
          output.txt      : script produced
-         e.g:
-         perl parse.pl "Input File list_test.xlsx" script_output.txt
+         Example:
+         $ perl parse.pl "Input File list_test.xlsx" script_output.txt
 EOF
  exit;
 }
