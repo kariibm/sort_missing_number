@@ -100,8 +100,8 @@ print <<EOF;
 Options:
          input_file.xlsx : the excel sheet file to be parsed, use "" if there is space on the filename, or just using tab 
          output.txt      : script produced
- For Example:
-        perl parse.pl "Input File list_test.xlsx" script_output.txt
+         e.g:
+         perl parse.pl "Input File list_test.xlsx" script_output.txt
 EOF
  exit;
 }
