@@ -1,0 +1,10 @@
+## Special event list
+perl add_range -param param_tests1 -first 10 -last 11
+perl add_range -param param_tests2 -first 13 -last 13
+perl add_range -param param_tests3 -first 15 -last 15
+perl add_range -param param_tests4 -first 18 -last 19
+perl add_range -param param_tests5 -first 21 -last 21
+
+
+## Configure special event
+perl create_reporting -param 200000000 -param_tests param_tests1,param_tests2,param_tests3,param_tests4,param_tests5
