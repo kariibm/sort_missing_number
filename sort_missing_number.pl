@@ -19,7 +19,7 @@ my $workbook    = ReadData ("$ARGV[0]");
 my $output_file = $ARGV[1];
 my (@column_sorted) = ();
 my $sheet = $workbook->[1];       # First data sheet
-my @columns = $sheet->{cell}[3];  # Column 'M' 
+my @columns = $sheet->{cell}[3];  # Column 'C' 
  
 foreach my $col (@columns) {
    for (@$col) {
